@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Star Wars RPG Game</title>
+   
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+
+    <div class="header-container">
+      <header>STAR WARS RPG!</header>
+    </div>
+
+    <div class="main-container">
+      <section id="available-characters">
+        <ol class="characterArray" id="selectable"></ol>
+      </section>
+      
+      <section id="selected-character">
+            <div class="header">
+            <h2>Your Character</h2>
+            </div>
+        <div id="character-placeholder"></div>
+      </section>
+
+      <section id="enemy-characters">
+            <div class="header">
+            <h2>Enemies Available to Attack</h2>
+            </div>
+        <div id="available-enemies"></div>
+      </section>
+            
+            
+        <section id="fight-section">
+            <div class="header">
+            <h2>Fight Section</h2>
+            </div>
+
+          <button id="attack" class="button">Attack</button>
+
+            <div class="header">
+            <h2>Defender</h2>
+            </div>
+          <div id="selected-enemy"></div>
+          <div id="attack-report"></div>
+          <div id="losses-report"></div>
+        </section>
+    </div>
+    
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>    
+  </body>
+</html>

@@ -1,0 +1,144 @@
+
+body {
+
+	background: black url("../images/starwars_background.jpg") no-repeat center top;
+}	
+
+.btn:focus,.btn:active {
+   outline: none !important;
+}
+
+.top-margin {
+	margin-top: 30px;
+}
+
+.bottom-margin {
+	margin-bottom: 30px;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+li {
+	float: left;
+	padding-bottom: 1%;
+	list-style-type: none;
+}
+
+.header-container {
+	color: white;
+	font-weight: bold;
+	font-family: 'Inconsolata';
+	padding: 3%;
+	font-size: 50px;
+	text-align: right;
+
+}
+
+.header {
+	color: white;
+	font-family: 'Inconsolata';
+	font-size: 20px;
+	text-align: left;
+	padding-bottom: 1px;
+	padding-top: 1px;
+
+}
+
+.main-container {
+	color: white;
+	font-family: 'Inconsolata';
+	padding: 3%;
+	font-size: 20px;
+	padding-bottom: 1%;
+	text-align: left;
+
+}
+
+.characterPicture {
+	display: block;
+	height: 80px;
+	width: 80%;
+	padding: 2%;
+	margin: 0 auto;
+}
+
+.characterName {
+	color: black;
+	font-family: 'Inconsolata';
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.characterPower {
+	color: black;
+	font-family: 'Inconsolata';
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.button {
+    background-color: #C0C0C0;
+    border: none;
+    color: black;
+    font-family: 'Inconsolata';
+    padding: 15px 32px;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 22px;
+}
+
+#selected-character {
+	clear: both;
+}
+
+#enemy-characters {
+	clear: both;
+}
+
+#fight-section {
+	clear: both;
+}
+
+#attack-report {
+	clear: both;
+}
+
+.ui-widget-content {
+	background-color: white;
+	border: 2px solid green;
+	width: 178px;
+}
+
+#restart {
+	visibility: hidden;
+
+/* 
+  These rules take effect when the browser's width
+  is 769px or more.
+*/
+@media screen and (max-width: 980px) {
+
+}
+	
+
+/* 
+  These rules take effect when the browser's width
+  is 641px or more.
+*/
+@media screen and (max-width: 768px) {
+
+}
+
+/* 
+  These rules take effect when the browser's width
+  is 640px or less.
+*/
+@media screen and (max-width: 640px) {
+
+}
